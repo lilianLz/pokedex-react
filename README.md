@@ -51,8 +51,6 @@ El destinatario del mensaje se configura desde la plantilla de EmailJS. Las cred
 - CSS propio para los estilos y el diseño adaptable.
 - GitHub Pages para la publicación.
 
-No se utiliza Next.js ni TypeScript. El proyecto está realizado con React y JavaScript, utilizando componentes simples y conceptos vistos en clase.
-
 ## Organización principal
 
 ```text
@@ -157,8 +155,4 @@ Se utiliza `HashRouter` porque GitHub Pages es un hosting estático y esta confi
 6. `CollectionPage.jsx` recorre el array local y muestra la colección.
 7. `ContactPage.jsx` incorpora el formulario y el mapa.
 8. `ContactForm` envía los datos mediante EmailJS.
-
-## Trabajo práctico
-
-El sitio cumple con las consignas principales: utiliza React, consume una API pública, presenta una segunda página con datos locales, incorpora una página de contacto con formulario y mapa, y se encuentra publicado en GitHub Pages.
 
