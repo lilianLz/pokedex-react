@@ -34,7 +34,7 @@ export default function HomePage() {
           <div className="home-hero__copy">
             <p className="home-hero__eyebrow">
               <span className="home-hero__eyebrow-mark" aria-hidden="true" />
-              Pokédex de campo <span>/</span> Unidad 01
+              Pokédex de campo <span>/</span> Registro Pokémon
             </p>
             <h1 id="home-title">
               Una guía de bolsillo para <em>explorar el mundo Pokémon.</em>

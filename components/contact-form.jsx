@@ -104,17 +104,13 @@ export function ContactForm() {
         />
       </div>
 
-      <p className="contact-form__notice">
-        {isEmailJSConfigured ? (
-          "El destinatario y las variables del mensaje se definen en tu plantilla de EmailJS."
-        ) : (
-          <>
+      {!isEmailJSConfigured && (
+        <p className="contact-form__notice">
             Para activar el envío, reemplaza los tres valores de ejemplo en{" "}
             <code>lib/emailjs-config.js</code>. En la plantilla, usa from_name, reply_to, subject y
             message.
-          </>
-        )}
-      </p>
+        </p>
+      )}
 
       <button className="button button--accent contact-form__submit" type="submit" disabled={isSending}>
         {isSending ? "Enviando…" : "Enviar mensaje"}
